@@ -1,0 +1,68 @@
+body {
+    font-family: 'Hind', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("C:/Users/Padmesh S/Downloads/OpenJDK-23/8aM3eLCbSZsJ3xFk-generated_image.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub-heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 3px 3px 8px white;
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: yellow;
+    text-shadow: 3px 3px 8px black;
+    margin-top: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: orange;
+}
+
+.team {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    border: 3px solid white;
+    width: 60%;
+    margin: 15px auto;
+}
+
+.highlight {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+.highlight:hover {
+    color: blue;
+    border-color: blue;
+    background-color: white;
+    transform: scale(1.1);
+}
